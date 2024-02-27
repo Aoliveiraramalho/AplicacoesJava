@@ -23,16 +23,13 @@ public class calculoMedia {
         media = (nota1 + nota2 + nota3) / 3;
         
         System.out.println("Nome Aluno: "+ nomeAluno);
-        System.out.printf("Nota 1 = %.2f", nota1);
-        System.out.println();
-        System.out.printf("Nota 2 = %.2f",nota1);
-        System.out.println();
-        System.out.printf("Nota 3 = %.2f ",nota1);
-        System.out.println();
-        //System.out.printf("Sua média é de %.2f",media);
+        System.out.printf("Nota 1 = %.2f %n", nota1);
+        System.out.printf("Nota 2 = %.2f %n",nota1);
+        System.out.printf("Nota 3 = %.2f %n",nota1);
+        System.out.printf("Sua média é de %.2f ",media);
         
         ler.close();
-        //
+        
     }
     
 }
