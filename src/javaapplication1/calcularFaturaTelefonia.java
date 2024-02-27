@@ -19,7 +19,7 @@ public class calcularFaturaTelefonia {
         System.out.printf("Valor da fatura = R$ %.2f%n", fatura);
         
         ler.close();
-        
+        //AdriAQNA
     }
     
 }
