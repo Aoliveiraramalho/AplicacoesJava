@@ -29,10 +29,10 @@ public class calculoMedia {
         System.out.println();
         System.out.printf("Nota 3 = %.2f ",nota1);
         System.out.println();
-        System.out.printf("Sua média é de %.2f",media);
+        //System.out.printf("Sua média é de %.2f",media);
         
         ler.close();
-        
+        //
     }
     
 }
